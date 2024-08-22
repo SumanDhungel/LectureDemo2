@@ -1,10 +1,10 @@
 
-'''
+"""
 num1 = int(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 sum  = num1 + num2
 print(sum)
-'''
+"""
 name = input("Enter your name: ")
 school = input("Enter your school: ")
 floatVariable = 12.3456
@@ -40,4 +40,18 @@ print(shareOfLoan)
 print(int(shareOfLoan))
 print(type(shareOfLoan))
 '''
+
+num1 = int(input("Enter a: "))
+num2 = int(input("Enter b: "))
+print(f"a is {num1} and b is {num2}")
+Num1 = num2
+Num2 = num1
+print(f"a is {Num1} and b is {Num2}")
+
+length = float(input("Enter a length: "))
+breadth = float(input("Enter a breadth: "))
+area = length * breadth
+print(f"The area is {area}")
+
+
 
